@@ -1,0 +1,3 @@
+Template.dataReal.rendered = function() {
+
+};

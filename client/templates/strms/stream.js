@@ -1,0 +1,3 @@
+Template.stream.rendered = function() {
+
+};
