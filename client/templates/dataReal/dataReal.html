@@ -1,14 +1,29 @@
 <template name="dataReal">
   <div class="template-dataReal">
     <div class="page-header">
-      <h1>Dashboard</h1>
+      <h1>DashBoard ifmColombo.com</h1>
     </div>
+      <div class="col-sm-6">
+        <h3>Site Data Update</h3>
+        <hr>
+        <form class="uPdate-sdata">
+          <input type="text" name="noOna" placeholder="" />
+        </form>
 
-    <ul class="list-group">
-      {{#each items}}
-        <li class="list-group-item">{{ name }} <span class="label label-default">{{ rating }}</span></li>
-      {{/each}}
-    </ul>
+        <hr>
+
+<!-- 
+        {{#each tasks}}
+          {{> task}}
+        {{/each}}
+ -->
+        
+      </div>
+      <div class="col-sm-6">
+        <h3>Real time Requests</h3>
+        <hr>
+      </div>
+
 
   </div>
 </template>

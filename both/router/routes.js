@@ -2,7 +2,7 @@ Router.route('/', {
   name: 'home'
 });
 
-Router.route('/dataReal', {
+Router.route('/admin', {
   name: 'dataReal',
   controller: 'dataRealController'
 });

@@ -3,8 +3,15 @@
     <div class="no-pad">
     	<div class="col-sm-6 no-pad" id="Details">
     		<h1>NOW ON AIR</h1>
-    		<h4>Morning Drive <small>with</small></h4>
-    		<h3>Malith and Thisuri</h3>
+    		<h4>The Wake Up Show<small>with</small></h4>
+    		<h3>Rayan and Nijanthan</h3><!-- 
+    		{{ nowOnair }}
+
+    		{{ #each sData }}
+    			{{ > dataa }}
+    		{{ /each }}
+ -->
+
     		<hr>
     		<br>
 	    	<div class="col-sm-6 {{ isActiveRoute regex='podcast' }}">
@@ -42,3 +49,8 @@
     </div>
   </div>
 </template>
+
+
+	<template name="dataa">
+	  	<li>{{noOna}}</li>
+	</template>

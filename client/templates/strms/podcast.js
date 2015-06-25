@@ -3,8 +3,8 @@ Template.podcast.rendered = function() {
 		autostart: true,
 	    file: 'http://128.199.243.135:8000/stream',
   		primary: 'flash',
-	    width: '640',
-	    height: '480',
+	    width: '100%',
+	    height: '30',
 	    type: "mp3"
 	});
 };
